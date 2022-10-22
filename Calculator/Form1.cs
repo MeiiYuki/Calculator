@@ -25,5 +25,11 @@ namespace Calculator
 
             kq.Text = num.ToString(); 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            double num = double.Parse(a.Text) - double.Parse(b.Text);
+            kq.Text = num.ToString();
+        }
     }
 }
