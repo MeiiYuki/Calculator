@@ -89,7 +89,7 @@
             this.cong.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.25F);
             this.cong.Location = new System.Drawing.Point(142, 229);
             this.cong.Name = "cong";
-            this.cong.Size = new System.Drawing.Size(73, 40);
+            this.cong.Size = new System.Drawing.Size(94, 40);
             this.cong.TabIndex = 6;
             this.cong.Text = "+";
             this.cong.UseVisualStyleBackColor = true;
@@ -100,7 +100,7 @@
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.25F);
             this.button2.Location = new System.Drawing.Point(291, 229);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(73, 40);
+            this.button2.Size = new System.Drawing.Size(89, 40);
             this.button2.TabIndex = 7;
             this.button2.Text = "-";
             this.button2.UseVisualStyleBackColor = true;
