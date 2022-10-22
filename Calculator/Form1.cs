@@ -19,11 +19,15 @@ namespace Calculator
 
         private void button1_Click(object sender, EventArgs e)
         {
-            double num1 = double.Parse(a.Text);
-            double num2 = double.Parse(b.Text);
-            double num = num1 + num2;
+            if (a.Text != String.Empty && b.Text != String.Empty)
 
-            kq.Text = num.ToString(); 
+            {
+                double num1 = double.Parse(a.Text);
+                double num2 = double.Parse(b.Text);
+                double num = num1 + num2;
+
+                kq.Text = num.ToString();
+            }
         }
 
         private void button2_Click(object sender, EventArgs e)
