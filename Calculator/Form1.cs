@@ -16,5 +16,14 @@ namespace Calculator
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            double num1 = double.Parse(a.Text);
+            double num2 = double.Parse(b.Text);
+            double num = num1 + num2;
+
+            kq.Text = num.ToString(); 
+        }
     }
 }
