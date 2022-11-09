@@ -6,15 +6,47 @@ using System.Threading.Tasks;
 
 namespace Calculator
 {
-    public class Calculation
+   public class Calculation
     {
-        double num1, num2;
+        private int a;
+        private int b;
+        public Calculation(int a, int b)
+        {
+            this.a = a;
+            this.b = b;
+        }
+        public int Execute(string CalSymbol)
+        {
+            int result = 0;
+            switch(CalSymbol)
+            {
+                case "+":
+                    result = this.a + this.b;
+                    break;
+                case "-":
+                    result = this.a - this.b;
+                    break;
+                case "*":
+                    result = this.a * this.b;
+                    break;
+                case "/":
+                    result = this.a / this.b;
+                    break;
+            }
+            return result;
+        }
+
+   
 
     }
-    public Calculation(double num1, double num2)
+    
+}
+namespace TestCalculator
+{
+    [TestClass]
+    public class UnitTest1
     {
-        this.num1 = num1;
-        this.num2 = num2;
+        private Calculation cal;
 
     }
 }
