@@ -31,8 +31,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.a = new System.Windows.Forms.TextBox();
-            this.b = new System.Windows.Forms.TextBox();
+            this.n1 = new System.Windows.Forms.TextBox();
+            this.n2 = new System.Windows.Forms.TextBox();
             this.kq = new System.Windows.Forms.Label();
             this.cong = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -64,19 +64,19 @@
             this.label3.TabIndex = 2;
             this.label3.Text = "Result";
             // 
-            // a
+            // n1
             // 
-            this.a.Location = new System.Drawing.Point(219, 71);
-            this.a.Name = "a";
-            this.a.Size = new System.Drawing.Size(100, 20);
-            this.a.TabIndex = 3;
+            this.n1.Location = new System.Drawing.Point(219, 71);
+            this.n1.Name = "n1";
+            this.n1.Size = new System.Drawing.Size(100, 20);
+            this.n1.TabIndex = 3;
             // 
-            // b
+            // n2
             // 
-            this.b.Location = new System.Drawing.Point(219, 111);
-            this.b.Name = "b";
-            this.b.Size = new System.Drawing.Size(100, 20);
-            this.b.TabIndex = 4;
+            this.n2.Location = new System.Drawing.Point(219, 111);
+            this.n2.Name = "n2";
+            this.n2.Size = new System.Drawing.Size(100, 20);
+            this.n2.TabIndex = 4;
             // 
             // kq
             // 
@@ -95,7 +95,7 @@
             this.cong.TabIndex = 6;
             this.cong.Text = "+";
             this.cong.UseVisualStyleBackColor = true;
-            this.cong.Click += new System.EventHandler(this.button1_Click);
+            this.cong.Click += new System.EventHandler(this.cong_Click);
             // 
             // button2
             // 
@@ -117,6 +117,7 @@
             this.button1.TabIndex = 8;
             this.button1.Text = "*";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button3
             // 
@@ -127,6 +128,7 @@
             this.button3.TabIndex = 9;
             this.button3.Text = "/";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // Form1
             // 
@@ -138,8 +140,8 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.cong);
             this.Controls.Add(this.kq);
-            this.Controls.Add(this.b);
-            this.Controls.Add(this.a);
+            this.Controls.Add(this.n2);
+            this.Controls.Add(this.n1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -155,8 +157,8 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox a;
-        private System.Windows.Forms.TextBox b;
+        private System.Windows.Forms.TextBox n1;
+        private System.Windows.Forms.TextBox n2;
         private System.Windows.Forms.Label kq;
         private System.Windows.Forms.Button cong;
         private System.Windows.Forms.Button button2;

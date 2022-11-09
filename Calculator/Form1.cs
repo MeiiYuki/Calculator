@@ -17,23 +17,43 @@ namespace Calculator
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            if (a.Text != String.Empty )
-
-            {
-                double num1 = double.Parse(a.Text);
-                double num2 = double.Parse(b.Text);
-                double num = num1 + num2;
-
-                kq.Text = num.ToString();
-            }
-        }
+       
 
         private void button2_Click(object sender, EventArgs e)
         {
-            double num = double.Parse(a.Text) - double.Parse(b.Text);
-            kq.Text = num.ToString();
+            int num1 = int.Parse(n1.Text);
+            int num2 = int.Parse(n2.Text);
+            Calculation c = new Calculation(num1, num2);
+
+            kq.Text = c.Execute("-").ToString();
+        }
+
+        private void cong_Click(object sender, EventArgs e)
+        {
+
+            int num1 = int.Parse(n1.Text);
+            int num2 = int.Parse(n2.Text);
+            Calculation c = new Calculation(num1, num2);
+
+            kq.Text = c.Execute("+").ToString();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int num1 = int.Parse(n1.Text);
+            int num2 = int.Parse(n2.Text);
+            Calculation c = new Calculation(num1, num2);
+
+            kq.Text = c.Execute("+").ToString();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            int num1 = int.Parse(n1.Text);
+            int num2 = int.Parse(n2.Text);
+            Calculation c = new Calculation(num1, num2);
+
+            kq.Text = c.Execute("/").ToString();
         }
     }
 }

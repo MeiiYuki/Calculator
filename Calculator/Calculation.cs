@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Calculator;
 
 namespace Calculator
 {
@@ -18,7 +19,7 @@ namespace Calculator
         public int Execute(string CalSymbol)
         {
             int result = 0;
-            switch(CalSymbol)
+            switch (CalSymbol)
             {
                 case "+":
                     result = this.a + this.b;
@@ -35,18 +36,9 @@ namespace Calculator
             }
             return result;
         }
-
-   
-
+           
     }
-    
-}
-namespace TestCalculator
-{
-    [TestClass]
-    public class UnitTest1
-    {
-        private Calculation cal;
 
-    }
 }
+
+
