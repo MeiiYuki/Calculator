@@ -4,16 +4,6 @@
     "C:\\Users\\Admin\\Documents\\Kiểm thử phần mềm\\Github\\Calculator\\TestCalculator\\TestCalculator.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\Documents\\Kiểm thử phần mềm\\Github\\Calculator\\Calculator\\Calculator.csproj": {
-      "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Documents\\Kiểm thử phần mềm\\Github\\Calculator\\Calculator\\Calculator.csproj",
-        "projectName": "Calculator",
-        "projectPath": "C:\\Users\\Admin\\Documents\\Kiểm thử phần mềm\\Github\\Calculator\\Calculator\\Calculator.csproj"
-      },
-      "frameworks": {
-        "net452": {}
-      }
-    },
     "C:\\Users\\Admin\\Documents\\Kiểm thử phần mềm\\Github\\Calculator\\TestCalculator\\TestCalculator.csproj": {
       "version": "1.0.0",
       "restore": {

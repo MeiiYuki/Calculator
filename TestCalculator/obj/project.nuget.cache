@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "lUzLsomna1k7ysauZ7CQoJfII7cV8xKekcQ5+XbkoMD33kk/65GWeTPyQF/XpeZ2qNMoR2eEoOv+oy34DUuYZw==",
-  "success": true,
+  "dgSpecHash": "l1sAelxamO7qXw/yXoUSWA91BzcbjbA4NGX+QVrkPyr12/9R/yYo7joYmWtd9prU30M3x1hxVCBLWd6zwtCE+Q==",
+  "success": false,
   "projectFilePath": "C:\\Users\\Admin\\Documents\\Kiểm thử phần mềm\\Github\\Calculator\\TestCalculator\\TestCalculator.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",
@@ -68,5 +68,15 @@
     "C:\\Users\\Admin\\.nuget\\packages\\system.xml.xpath\\4.3.0\\system.xml.xpath.4.3.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\system.xml.xpath.xmldocument\\4.3.0\\system.xml.xpath.xmldocument.4.3.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\Admin\\Documents\\Kiểm thử phần mềm\\Github\\Calculator\\Calculator\\Calculator.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\Admin\\Documents\\Kiểm thử phần mềm\\Github\\Calculator\\Calculator\\Calculator.csproj",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }

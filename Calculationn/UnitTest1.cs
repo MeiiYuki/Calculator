@@ -31,7 +31,7 @@ namespace Calculationn
         [TestMethod]
         public void TestDivOperator()
         {
-            Assert.AreEqual(cal.Execute("/"),2 );
+            Assert.AreEqual(cal.Execute("/"), 2);
         }
         [TestMethod]
         [ExpectedException(typeof(DivideByZeroException))]
@@ -40,5 +40,22 @@ namespace Calculationn
             Calculation c = new Calculation(2, 0);
             c.Execute("/");
         }
+        [TestMethod]
+        public void TestDivRound()
+        {
+            Calculation c = new Calculation(5, 3);
+            Assert.AreEqual(c.Execute("/"), 2);
+
+        }
+        public TestContext TestContext { get; set; }
+        [DataSource("Microsoft.VisualStudio.TestTools.DataSource.CSV",@".\Data\TestData.csv","TestData#csv",DataAccessMethod.Sequential)]
+        [TestMethod]
+        public void TestwithDataSource()
+        {
+            int a = int.Parse(TestContext.DataRow[0].Tostring());
+        }
+      
+
+
     }
 }

@@ -9,16 +9,16 @@ namespace Calculator
 {
    public class Calculation
     {
-        private int a;
-        private int b;
-        public Calculation(int a, int b)
+        private double a;
+        private double b;
+        public Calculation(double a, double b)
         {
             this.a = a;
             this.b = b;
         }
-        public int Execute(string CalSymbol)
+        public double Execute(string CalSymbol)
         {
-            int result = 0;
+            double result = 0;
             switch (CalSymbol)
             {
                 case "+":

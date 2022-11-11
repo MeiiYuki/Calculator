@@ -1225,15 +1225,6 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
-      },
-      "Calculator/1.0.0": {
-        "type": "project",
-        "compile": {
-          "bin/placeholder/Calculator.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Calculator.dll": {}
-        }
       }
     }
   },
@@ -4622,16 +4613,11 @@
         "system.xml.xpath.xmldocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xmldocument.nuspec"
       ]
-    },
-    "Calculator/1.0.0": {
-      "type": "project",
-      "path": "../Calculator/Calculator.csproj",
-      "msbuildProject": "../Calculator/Calculator.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Calculator >= 1.0.0",
+      "C:\\Users\\Admin\\Documents\\Kiểm thử phần mềm\\Github\\Calculator\\Calculator\\Calculator.csproj",
       "Microsoft.NET.Test.Sdk >= 16.5.0",
       "NUnit >= 3.12.0",
       "NUnit3TestAdapter >= 3.16.1"
@@ -4716,5 +4702,16 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\Admin\\Documents\\Kiểm thử phần mềm\\Github\\Calculator\\Calculator\\Calculator.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\Admin\\Documents\\Kiểm thử phần mềm\\Github\\Calculator\\Calculator\\Calculator.csproj",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }
